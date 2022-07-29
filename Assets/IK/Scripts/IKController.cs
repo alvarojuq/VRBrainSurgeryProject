@@ -7,7 +7,7 @@ public class IKController : MonoBehaviour {
     public float[] Angles;
 
     private const float SamplingDistance = 1f;
-    private const float LearningRate = 1000f;
+    private const float LearningRate = 100f;
     private const float DistanceThreshold = 0.01f;
 
 
