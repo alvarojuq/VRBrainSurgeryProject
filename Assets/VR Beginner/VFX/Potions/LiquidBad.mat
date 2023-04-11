@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 5
+  version: 7
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -23,6 +23,8 @@ Material:
   m_Name: LiquidBad
   m_Shader: {fileID: -6465566751694194690, guid: 1abdf8beece9edf42bfd9d6588c84d29,
     type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -31,6 +33,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -68,6 +71,8 @@ Material:
     - Vector1_69DC66C: 30
     - Vector1_7500305: 0.02
     - Vector1_A0C096A0: 0.5
+    - _QueueControl: 0
+    - _QueueOffset: 0
     m_Colors:
     - Color_E3091B1A: {r: 0.31132078, g: 0.08957814, b: 0.10010397, a: 0}
     - Color_FDA61C50: {r: 0.50980395, g: 0.34802234, b: 0.26666668, a: 1}
