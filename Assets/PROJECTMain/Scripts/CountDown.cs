@@ -59,7 +59,7 @@ public class CountDown : MonoBehaviour
     public void Step2()
     {
         count = 1;
-        StepUIText.text = "Fix the patient head with Mayfield Support (Log: Ability to adjust the mayfiled holder can be given)";
+        StepUIText.text = "Step 2: Fix the patient head using the Mayfield Support by rotating the right knob until its color changes.";// (Log: Ability to adjust the mayfiled holder can be given)";
         MainTitleUI.text = "Step 2";
         OutlineScript1.GetComponent<Outline>().enabled = !OutlineScript1.GetComponent<Outline>().enabled;
         OutlineScript2.GetComponent<Outline>().enabled = true;
@@ -69,8 +69,8 @@ public class CountDown : MonoBehaviour
 
     public void Step3()
     {
-       
-        StepUIText.text = "Referencing between Robot & Patient, Planning of Electrode Entry Points & End Point is Done. (Log: Scanning process will take place with camera, camera is currently not installed in the room :())";
+
+        StepUIText.text = "Step 3: Room, head, and fiducial markers registration. Please wait until the scanner field is disabled.";// Referencing between Robot & Patient, Planning of Electrode Entry Points & End Point is Done. (Log: Scanning process will take place with camera, camera is currently not installed in the room :())";
         MainTitleUI.text = "Step 3";
         
         OutlineScript1.GetComponent<Outline>().enabled = !OutlineScript1.GetComponent<Outline>().enabled;
@@ -82,8 +82,8 @@ public class CountDown : MonoBehaviour
 
     public void Step4()
     {
-       
-        StepUIText.text = "Directing the robot to electrode entry points according to previous planning (Log: Robot is not yet complete, as i have less information about the robot, tip of robot will have some instrument for helping in drilling process ) ";
+
+        StepUIText.text = "Step 4: Direct the robot end effector to the fiducial markers using the Neuronavigator. Press on the default locations and observe the robot.";// electrode entry points according to previous planning (Log: Robot is not yet complete, as i have less information about the robot, tip of robot will have some instrument for helping in drilling process ) ";
         MainTitleUI.text = "Step 4";
         
         
@@ -93,8 +93,8 @@ public class CountDown : MonoBehaviour
 
     public void Step5()
     {
-       
-        StepUIText.text = "Drilling on already established points (Log: Grab the drill from table, you can't drill on the head right now :)";
+
+        StepUIText.text = "Step 5: Position the drill on the robot attachment in preparation for the Drilling.";// on already established points (Log: Grab the drill from table, you can't drill on the head right now :)";
         MainTitleUI.text = "Step 5";
         
         
@@ -104,8 +104,8 @@ public class CountDown : MonoBehaviour
 
     public void Step6()
     {
-       
-        StepUIText.text = "Placement of Electrode & Removal Takes place (Log: need to work on!)";
+
+        StepUIText.text = "You have completed the procedure preparation";// Placement of Electrode & Removal Takes place (Log: need to work on!)";
         MainTitleUI.text = "Step 6";
         
         
@@ -116,8 +116,8 @@ public class CountDown : MonoBehaviour
     public void Step7()
     {
        
-        StepUIText.text = "Thank you for trying..............";
-        MainTitleUI.text = "More Steps can be added!!!!!!!";
+        StepUIText.text = "Thank you for practing this procedure..............";
+        MainTitleUI.text = "";
         
         
         
